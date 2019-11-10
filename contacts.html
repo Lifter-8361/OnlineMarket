@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты "Климат"</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Интернет магазин климатической техники "Климат"</h1>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <form action="#"> Фамилия
-        <input type="text">
-        <br> Имя
-        <input type="text">
-        <br> Отчество
-        <input type="text">
-        <br> e-mail
-        <input type="text">
-        <br> Ваш пол М
-        <input type="radio" name="gender" checked> Ж
+<ul class="menu">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+</ul>
+<hr>
+   <h1 class="h1_title">Интернет магазин климатической техники "Климат"</h1>
+
+    <h3>Форма обратной связи</h3>
+    <form action="#"> <p>Фамилия</p>
+        <input class="person_name_text" type="text">
+        <br> <p>Имя</p>
+        <input class="person_name_text" type="text">
+        <br> <p>Отчество</p>
+        <input class="person_name_text" type="text">
+        <br> <p>e-mail</p>
+        <input class="person_data_text" type="text">
+        <br> <p>Ваш пол</p><br> <p>М</p>
+        <input type="radio" name="gender" checked> <p>Ж</p>
         <input type="radio" name="gender">
-        <br>Текст обращения
-        <input type="text">
+        <br><p>Текст обращения</p>
+        <input class="person_message_text" type="text">
         <br>
         <input type="submit" value="Отправить">
         <input type="reset" value="Очистить">
