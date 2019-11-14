@@ -80,11 +80,29 @@ ol li
     font-weight: 500;
 }
 
+ul li a:hover,
+ol li a:hover
+{
+    color: green;
+}
+
+ul li a:active,
+ol li a:active
+{
+    color: red;    
+}
+
 .person_name_text,
 .person_data_text,
 {
     height: 20px;
     width: 150px;
+}
+
+.person_data_text:focus
+{
+    color:red;
+    background-color:blueviolet;
 }
 
 .person_message_text
