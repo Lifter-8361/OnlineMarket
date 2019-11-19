@@ -152,3 +152,12 @@ table tr:first-child {
     margin-top: 50px;
     margin-left: 100px;
 }
+
+.footer
+{
+    height: 50px;
+    background-color:antiquewhite;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
