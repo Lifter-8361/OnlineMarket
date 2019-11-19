@@ -1,70 +1,59 @@
-body
-{
-    background-color:  #f8f8f8;
+body {
+    background-color: #f8f8f8;
 }
 
-.menu
-{
-    list-style-type:none;
+.menu {
+    list-style-type: none;
     font-family: cursive;
     font-size: 14px;
-}
-
-.menu
-{
     text-align: right;
     list-style-image: none;
+    display: inline-flex;
+    float: right;
+    margin-top: 50px;
 }
 
-p
-{
+p {
     font-family: "Tahoma";
     font-size: 14px;
-    text-align:center;
+    text-align: center;
 }
 
-.first_sound_big:first-letter
-{
+.first_sound_big:first-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
     color: red;
 }
 
-.h1_title
-{
+.h1_title {
     text-align: center;
 }
 
-.catalog_title
-{
+.catalog_title {
     text-align: center;
 }
 
-input
-{
+input {
     margin: 3px;
 }
 
 .short_description,
 .long_header,
-.characteristic_header
-{
+.characteristic_header {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-.short_description
-{
+.short_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.long_header
-{
+.long_header {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -73,14 +62,12 @@ input
 }
 
 ul,
-ol
-{
+ol {
     list-style-image: url(img/style/marker.svg);
 }
 
 ul li,
-ol li
-{
+ol li {
     color: gray;
     font-size: 14px;
     margin: 5px;
@@ -88,15 +75,13 @@ ol li
 }
 
 ul li a:hover,
-ol li a:hover
-{
+ol li a:hover {
     color: green;
 }
 
 ul li a:active,
-ol li a:active
-{
-    color: red;    
+ol li a:active {
+    color: red;
 }
 
 .person_name_text,
@@ -106,60 +91,64 @@ ol li a:active
     width: 150px;
 }
 
-.person_data_text:focus
-{
-    color:red;
-    background-color:blueviolet;
+.person_data_text:focus {
+    color: red;
+    background-color: blueviolet;
 }
 
 input[type="text"],
-input[type="textarea"]
-{
+input[type="textarea"] {
     text-transform: capitalize;
 }
 
-.person_message_text
-{
+.person_message_text {
     height: 120px;
     width: 80%;
 }
 
-form p
-{
+form p {
     text-align: left;
-    margin:auto;
+    margin: auto;
 }
 
-figcaption
-{
+figcaption {
     text-align: center;
 }
 
-.catalog_item
-{
+.catalog_item {
     outline: 10px solid;
     outline-color: burlywood;
 }
 
-.catalog_item:hover
-{
+.catalog_item:hover {
     outline: none;
 }
 
-table
-{
+table {
     border: 1px solid gray;
     border-collapse: collapse;
 }
 
-table tr td
-{
+table tr td {
     border: 1px solid gray;
     width: 30px;
     height: 30px;
 }
 
-table tr:first-child
-{
+table tr:first-child {
     height: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 100px;
 }
