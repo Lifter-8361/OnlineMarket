@@ -161,3 +161,42 @@ table tr:first-child {
     margin-top: 20px;
     margin-right: 100px;
 }
+
+.title_block
+{
+    position: relative;
+    height: 255px;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+.title_block > div:first-child
+{
+    position:absolute;
+    width: 25%;
+}
+.title_block > div:last-child
+{
+    position:absolute;
+    left: 250px;
+    width: 55%;
+}
+
+.buy_button
+{
+    width: 300px;
+}
+
+.buy_button:hover
+{
+    background-color:cyan;
+    color: red;
+}
+
+.buy_button:active
+{
+    background-color:red;
+    color: cyan;
+}
